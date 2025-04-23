@@ -1,0 +1,21 @@
+# _data/publications.yml
+
+upcoming:
+  - title: "Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
+    authors: "Ryotaro Chiba, Takashi J. Moriya"
+    journal: "Monthly Notices of the Royal Astronomical Society"
+    year: 2025
+    arxiv: "2504.06445"
+
+published:
+  lead_author:
+    - title: "Characterisation of Supernovae Interacting with Dense Circumstellar Matter with a Flat Density Profile"
+      authors: "Ryotaro Chiba, Takashi J. Moriya"
+      journal: "The Astrophysical Journal"
+      volume: 973
+      number: 14
+      year: 2024
+      doi: "10.3847/1538-4357/ad6c37"
+      arxiv: "2407.07244"
+  co_author:
+    # … any co‐author items here

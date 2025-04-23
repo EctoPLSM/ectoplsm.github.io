@@ -1,0 +1,85 @@
+international:
+  talks:
+    - title: "(Upcoming) Exploring pre-supernova mass loss with modelling of double-peaked Type Ibc supernovae"
+      authors: "Ryotaro Chiba, Takashi J. Moriya"
+      event: "One Hundred Years of Supernovae"
+      location: "Grand Hotel Saltsjöbaden, Stockholm, Sweden"
+      link: "https://sites.google.com/view/supernova100/"
+      year: 2025
+    - title: "Exploring pre-supernova mass loss with modelling of double-peaked type Ibc SNe"
+      authors: "Ryotaro Chiba"
+      event: "Transients From Space"
+      location: "Space Telescope Science Institute, Baltimore, USA"
+      link: "https://www.stsci.edu/contents/events/stsci/2025/march/transients-from-space"
+      year: 2025
+    - title: "Characterisation of Supernovae Interacting with Circumstellar Matter with a Flat Density Profile"
+      authors: "Ryotaro Chiba"
+      event: "The Progenitors of Supernovae and their Explosions"
+      location: "Landscape Hotel, Dali, China"
+      link: "https://supernovae2024.casconf.cn/"
+      year: 2024
+  posters:
+    - title: "(Upcoming) Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
+      authors: "Ryotaro Chiba, Takashi J. Moriya"
+      event: "European Astronomical Society Annual Meeting 2025"
+      location: "University College Cork, Cork, Ireland"
+      link: "https://eas.unige.ch/EAS2025/index.jsp"
+      year: 2025
+
+domestic:
+  talks:
+    - title: "Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
+      authors: "Ryotaro Chiba"
+      event: "RESCEU April workshop"
+      location: "Research Center for the Early Universe, University of Tokyo"
+      link: null
+      year: 2025
+    - title: "Ibc型超新星の副次的ピークを用いた星周物質の調査"
+      authors: "千葉遼太郎、守屋尭"
+      event: "日本天文学会 2025年春季年会"
+      location: "水戸市民会館"
+      link: "https://sites.google.com/view/asj25mito0317-20/"
+      year: 2025
+    - title: "Double-peaked Type Ibc supernovae from interaction between supernova ejecta and circumstellar matter"
+      authors: "Ryotaro Chiba"
+      event: "DoS + CfCA Workshop FY 2024"
+      location: "HAMAYOU RESORT"
+      link: "https://sites.google.com/view/doscfcaworkshop2024/top"
+      year: 2024
+    - title: "Modeling the early peak of Type Ibc supernova"
+      authors: "Ryotaro Chiba"
+      event: "Supernova/Transient Workshop 2024"
+      location: "ホテルリステル猪苗代"
+      link: "https://sites.google.com/view/snws2024/home"
+      year: 2024
+    - title: "密度が一様なCSMとの相互作用により輝く超新星の光度曲線"
+      authors: "千葉遼太郎、守屋尭"
+      event: "日本天文学会 2024年秋季年会"
+      location: "関西学院大学神戸三田キャンパス"
+      link: "https://sites.google.com/view/nenkai2024kg/home"
+      year: 2024
+    - title: "密度が一様なCSMとの相互作用により輝く超新星の光度曲線"
+      authors: "千葉遼太郎"
+      event: "Exploring Extreme Transients: Emerging Frontiers and Challenges"
+      location: "京都大学基礎物理学研究所"
+      link: "https://www2.yukawa.kyoto-u.ac.jp/~transient24/index.php"
+      year: 2024
+    - title: "密度が一様なCSMとの相互作用により輝く超新星の光度曲線"
+      authors: "千葉遼太郎"
+      event: "第54回 天文・天体物理若手夏の学校"
+      location: "賢島宝生苑"
+      link: "https://astro-wakate.sakura.ne.jp/ss2024/"
+      year: 2024
+  posters:
+    - title: "Ibc型超新星の副次的ピークを用いた星周物質の調査"
+      authors: "千葉遼太郎、守屋尭"
+      event: "第37回 理論懇シンポジウム"
+      location: "国立天文台三鷹キャンパス"
+      link: "https://sites.google.com/view/rironkon2024/%E3%83%9B%E3%83%BC%E3%83%A0"
+      year: 2024
+    - title: "Modeling the early peak of Type Ibc supernovae"
+      authors: "Ryotaro Chiba, Takashi J. Moriya"
+      event: "学術変革 (A) マルチメッセンジャー天文学: 第2回領域研究会"
+      location: "源泉湯の宿松乃井"
+      link: "https://indico-icehap.phys.s.chiba-u.ac.jp/event/1/"
+      year: 2024

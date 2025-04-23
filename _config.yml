@@ -1,0 +1,75 @@
+title: "Ryotaro Chiba / 千葉遼太郎"
+subtitle: "PhD Student at NAOJ / SOKENDAI"
+email: ryotaro.chiba@grad.nao.ac.jp
+description: >-
+  Welcome to my personal website. I am a PhD student at the National
+  Astronomical Observatory of Japan (NAOJ), interested in supernovae
+  and massive stars.
+url: "https://ectoplsm.github.io"
+baseurl: ""
+teaser: "/assets/images/bio_photo.jpg"
+logo: "/assets/images/icon.jpg"
+github_username: EctoPLSM
+
+# Reading Files
+include:
+  - _pages
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-include-cache
+  - github-pages
+languages: ["en"]
+exclude_from_localization: ["assets"]
+
+# For sidebar
+author:
+  name: "Ryotaro Chiba"
+  avatar : "/assets/images/bio_photo.jpg"
+  bio: "PhD student at NAOJ / SOKENDAI"
+  email: "ryotaro.chiba@grad.nao.ac.jp"
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:ryotaro.chiba@grad.nao.ac.jp"
+  - label: "Google Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=lb2prtEAAAAJ"
+  - label: "ORCID"
+    icon: "fab fa-fw fa-orcid"
+    url: "https://orcid.org/0009-0003-4594-3715"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/ectoplsm"
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+atom_feed:
+  hide: true
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
