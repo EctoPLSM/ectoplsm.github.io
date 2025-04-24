@@ -69,7 +69,5 @@ Supernovae, circumstellar material, evolution of massive stars
 
 ## Skills
 
-Languages: Japanese (Native), English (proficient), German (Intermediate), Chinese (Intermediate), Spanish (Beginner), French (Beginner), Russian (Beginner), Korean (Beginner)
-
-Programming Languages: Python, C++, Fortran
+{{< yaml temp/skills.yml >}}
 

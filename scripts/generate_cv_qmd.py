@@ -228,7 +228,24 @@ for item in pub.get('published', {}).get('lead_author', []):
     lead_author.append(ent)
 write_section('publications_lead_author', lead_author)
 
-# --- 6) EMIT CV.qmd WITH FRONTMATTER + YAML SHORTCODES ---
+# --- 6) SKILLS SECTION---
+skills = [
+    {
+    'title':       "Languages",
+    'location':    "",
+    'date':        "",
+    'description': "Japanese (Native), English (Proficient), German (Intermediate), Chinese (Intermediate), Spanish (Elementary), French (Elementary), Russian (Beginner), Korean (Beginner)"
+    },
+    {
+    'title':       "Programming Languages",
+    'location':    "",
+    'date':        "",
+    'description': "Python, C++, Fortran"
+    }
+]
+write_section('skills', skills)
+
+# --- 7) EMIT CV.qmd WITH FRONTMATTER + YAML SHORTCODES ---
 with open(QMD_OUT, "w", encoding="utf-8") as f:
     # -- header block --
     f.write("---\n")
@@ -271,5 +288,4 @@ with open(QMD_OUT, "w", encoding="utf-8") as f:
 
     # Skills
     f.write("## Skills\n\n")
-    f.write("Languages: Japanese (Native), English (proficient), German (Intermediate), Chinese (Intermediate), Spanish (Beginner), French (Beginner), Russian (Beginner), Korean (Beginner)\n\n")
-    f.write("Programming Languages: Python, C++, Fortran\n\n")
+    f.write(f"{{{{< yaml {OUT_DIR}/skills.yml >}}}}\n\n")
