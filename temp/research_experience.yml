@@ -1,0 +1,16 @@
+- title: Research stay
+  location: Santiago, Chile
+  date: 2025-01
+  description: University of Chile
+  details:
+  - "Additionally visited ESO Vitacura Office, Cerro Cal\xE1n National Observatory,\
+    \ Andr\xE9s Bello National University, and Diego Portales University for discussions"
+  - "Host: Francisco F\xF6rster Bur\xF3n"
+- title: Summer Student Internship
+  location: Tokyo, Japan
+  date: 2023-08
+  description: National Astronomical Observatory of Japan
+  details:
+  - Worked on fully relativistic Monte Carlo radiative transfer code for gamma ray
+    bursts
+  - 'Host: Nozomu Tominaga'
