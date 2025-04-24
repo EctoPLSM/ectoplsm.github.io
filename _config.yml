@@ -32,6 +32,10 @@ author:
   name: "Ryotaro Chiba"
   avatar : "/assets/images/bio_photo.jpg"
   bio: "PhD student at NAOJ / SOKENDAI"
+  location: >-
+    Room 104, Main Building West,
+    National Astronomical Observatory of Japan,
+    2-21-1 Osawa, Mitaka, Tokyo, 181-8588
   email: "ryotaro.chiba@grad.nao.ac.jp"
   links:
   - label: "Email"
