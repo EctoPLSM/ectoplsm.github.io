@@ -233,7 +233,9 @@ with open(QMD_OUT, "w", encoding="utf-8") as f:
     # -- header block --
     f.write("---\n")
     yaml.safe_dump(header, f, sort_keys=False)
-    f.write("format: awesomecv-typst\n")
+    f.write("format:\n")
+    f.write("  awesomecv-typst:\n")
+    f.write("    font-paths: [\"assets/fonts/\"]\n")
     f.write("---\n\n")
 
     # Interest section
