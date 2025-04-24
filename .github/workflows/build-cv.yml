@@ -9,7 +9,6 @@ on:
       - '_quarto.yml'
   workflow_dispatch:
 
-# Grant the GITHUB_TOKEN permission to push commits
 permissions:
   contents: write
 
@@ -34,19 +33,18 @@ jobs:
       - name: Generate CV.qmd
         run: python scripts/generate_cv_qmd.py
 
-      # 3) Install Quarto & render PDF into assets/
+      # 3) Install Quarto CLI and R
       - name: Install Quarto CLI
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render PDF
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          format: pdf
+
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        uses: r-lib/actions/setup-renv@v2
 
       # 4) Commit and push the updated PDF back into assets/
-      - name: Commit updated CV.pdf
-        uses: ad-m/github-push-action@v0.8.0
+      - name: Render and publish updated CV.pdf
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
+          target: gh-pages
+        env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref_name }}
-          file-pattern: 'assets/cv.pdf'
-          commit-message: 'ci: update CV.pdf'
