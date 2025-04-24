@@ -15,7 +15,7 @@ from pathlib import Path
 CONFIG_YML = "_config.yml"
 DATA_DIR   = Path("_data")
 OUT_DIR    = Path("temp")
-QMD_OUT    = Path("CV.qmd")
+QMD_OUT    = Path("cv.qmd")
 
 # ensure output dir exists
 OUT_DIR.mkdir(exist_ok=True)
