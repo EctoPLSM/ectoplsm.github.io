@@ -1,0 +1,73 @@
+---
+author:
+  firstname: Ryotaro
+  lastname: Chiba
+  address: Room 104, Main Building West, National Astronomical Observatory of Japan,
+    2-21-1 Osawa, Mitaka, Tokyo, 181-8588
+  position: PhD student at NAOJ / SOKENDAI
+  contacts:
+  - icon: fa house
+    text: https://ectoplsm.github.io
+    url: https://ectoplsm.github.io
+  - icon: fa envelope-square
+    text: ryotaro.chiba@grad.nao.ac.jp
+    url: mailto:ryotaro.chiba@grad.nao.ac.jp
+  - icon: fa brands orcid
+    text: 0009-0003-4594-3715
+    url: https://orcid.org/0009-0003-4594-3715
+  - icon: fa brands github
+    text: ectoplsm
+    url: https://github.com/ectoplsm
+format: awesomecv-typst
+---
+
+## Research Interests
+
+Supernovae, circumstellar material, evolution of massive stars
+
+## Education
+
+{{< yaml temp/education.yml >}}
+
+## Grants and Fellowships
+
+{{< yaml temp/grants_fellowships.yml >}}
+
+## Honours and Awards
+
+{{< yaml temp/honours_awards.yml >}}
+
+## Research Experience
+
+{{< yaml temp/research_experience.yml >}}
+
+## Publications
+
+### Upcoming
+
+{{< yaml temp/publications_upcoming.yml >}}
+
+### Published — Lead Author
+
+{{< yaml temp/publications_lead_author.yml >}}
+
+## Selected Conference Presentations
+
+### Contributed Talks
+
+{{< yaml temp/international_talks.yml >}}
+
+### Posters
+
+{{< yaml temp/international_posters.yml >}}
+
+## Outreach 
+
+{{< yaml temp/outreach.yml >}}
+
+## Skills
+
+Languages: Japanese (Native), English (proficient), German (Intermediate), Chinese (Intermediate), Spanish (Beginner), French (Beginner), Russian (Beginner), Korean (Beginner)
+
+Programming Languages: Python, C++, Fortran
+

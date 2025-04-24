@@ -3,9 +3,10 @@ education:
     end: "present"
     degree: "Ph.D., Astronomy"
     department:
-      name: "Division of Science"
-      url: "https://sci.nao.ac.jp/main/en/"
-    institution: "National Astronomical Observatory of Japan"
+      name: "Astronomical Science Program"
+      url: "https://guas-astronomy.jp/eng/"
+    institution: "Graduate University of Advanced Studies, SOKENDAI"
+    location: "Tokyo, Japan"
     topic: "Interaction between supernovae and their surrounding environments"
     advisors:
       - name: "Takashi J. Moriya"
@@ -22,6 +23,7 @@ education:
       name: "Department of Astronomy"
       url: "https://www.astron.s.u-tokyo.ac.jp/en/"
     institution: "University of Tokyo"
+    location: "Tokyo, Japan"
     topic: "Theoretical modelling of oxygen shell flash in massive stars"
     advisor:
       - name: "Toshikazu Shigeyama"
@@ -33,21 +35,21 @@ grants_fellowships:
     title:
       text: "NAOJ Junior Fellow"
       url: "https://guas-astronomy.jp/Intro/pdf/junior_fellow.pdf"
-    amount: "JPY 9,000,000"
+    amount: "JPY 9,000,000"
 
   - start: "2023-04"
     end: "2029-03"
     title:
       text: "Nakamura Sekizen Foundation Scholarship"
       url: "https://nakamurasekizenkai.org/"
-    amount: "JPY 3,600,000"
+    amount: "JPY 3,600,000"
 
   - start: "2021-04"
     end: "2024-03"
     title:
       text: "Mitsubishi UFJ Trust Scholarship"
       url: "https://www.scholarship.or.jp/english/"
-    amount: "JPY 1,260,000"
+    amount: "JPY 1,260,000"
 
 honours_awards:
   - date: "2024-03"
@@ -55,20 +57,24 @@ honours_awards:
       text: "Academic Encouragement Award"
       url: "https://www.s.u-tokyo.ac.jp/ja/info/10252/"
     issuer: "School of Science, University of Tokyo"
-    note: "Awarded to top student in the department"
+    location: "Tokyo, Japan"
+    note: "Awarded to top students in the department"
 
   - date: "2019-08"
     title:
       text: "Gold Medal"
       url: null
     issuer: "50th International Physics Olympiad"
-    note: "Awarded to top 12% scorer in the competition"
+    location: "Tel Aviv, Israel"
+    note: "Awarded to top 8% students in the competition"
 
 research_experience:
   - date: "2025-01"
     title:
-      text: "Research stay at University of Chile"
+      text: "Research stay"
+      institution: "University of Chile"
       url: null
+    location: "Santiago, Chile"
     note: "Additionally visited ESO Vitacura Office, Cerro Calán National Observatory, Andrés Bello National University, and Diego Portales University for discussions"
     host: 
       name: "Francisco Förster Burón"
@@ -76,8 +82,10 @@ research_experience:
 
   - date: "2023-08"
     title:
-      text: "NAOJ Summer Student Internship"
+      text: "Summer Student Internship"
+      institution: "National Astronomical Observatory of Japan"
       url: "https://guas-astronomy.jp/ss.html"
+    location: "Tokyo, Japan"
     note: "Worked on fully relativistic Monte Carlo radiative transfer code for gamma ray bursts"
     host: 
       name: "Nozomu Tominaga"

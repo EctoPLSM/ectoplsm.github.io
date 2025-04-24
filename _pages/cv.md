@@ -6,7 +6,11 @@ lang: en
 ---
 
 ## PDF version
+<iframe src="https://docs.google.com/viewer?url={{ site.baseurl }}/assets/cv.pdf&embedded=true" style="width:100%; height:450px;" frameborder="0"></iframe>
+
 [Download CV (PDF)]({{ site.baseurl }}/assets/cv.pdf)
+
+PDF built using [quarto-awesomecv-typst](https://github.com/kazuyanagimoto/quarto-awesomecv-typst) template!
 
 ## Education
 

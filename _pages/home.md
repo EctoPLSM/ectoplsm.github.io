@@ -23,6 +23,12 @@ I also like puzzles; Sudokus, crosswords, you get the idea. I even [obtained the
 
 <div style="clear: both;"></div>
 
-## My Socials
+## Socials
 
 {% include social-links.html %}
+
+## Contact
+
+{{ site.author.location }}
+
+<iframe width="600" height="450" src="http://maps.google.co.jp/maps?&amp;q=35.675011, 139.537422&amp;output=embed&amp;t=h&amp;z=18" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
