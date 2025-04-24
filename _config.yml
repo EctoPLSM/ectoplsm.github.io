@@ -6,7 +6,7 @@ description: >-
   Astronomical Observatory of Japan (NAOJ), interested in supernovae
   and massive stars.
 url: "https://ectoplsm.github.io"
-baseurl: ""
+baseurl: "https://ectoplsm.github.io"
 teaser: "/assets/images/bio_photo.jpg"
 logo: "/assets/images/icon.jpg"
 github_username: EctoPLSM

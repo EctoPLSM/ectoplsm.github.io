@@ -4,7 +4,7 @@ layout: single
 permalink: /publications/
 lang: en
 ---
-An auto-update list of my publications can also be found at [ADS](), [Google Scholar](https://scholar.google.co.jp/citations?user=lb2prtEAAAAJ), or [ORCID](https://orcid.org/0009-0003-4594-3715).
+An auto-update list of my publications can also be found at [Google Scholar](https://scholar.google.co.jp/citations?user=lb2prtEAAAAJ) or [ORCID](https://orcid.org/0009-0003-4594-3715).
 
 ## Upcoming papers
 
