@@ -14,7 +14,7 @@
 // Default style
 #let color-accent-default = rgb("#dc3522")
 #let font-header-default = ("Roboto", "Arial", "Helvetica", "Dejavu Sans")
-#let font-text-default = ("Source Sans 3", "Arial", "Helvetica", "Dejavu Sans")
+#let font-text-default = ("Source Sans Pro", "Arial", "Helvetica", "Dejavu Sans")
 #let align-header-default = center
 
 // User defined style
