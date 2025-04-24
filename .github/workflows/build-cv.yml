@@ -1,6 +1,6 @@
 name: Build & Publish CV PDF
 
-# Trigger on changes to your data, script, or Quarto config
+# Trigger on changes to data, script, or Quarto config
 on:
   push:
     paths:
@@ -44,8 +44,9 @@ jobs:
 
       # 4) Commit and push the updated PDF back into assets/
       - name: Commit updated CV.pdf
-        uses: ad-m/github-push-action@v0.6
+        uses: ad-m/github-push-action@v0.8.0
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref_name }}
           file-pattern: 'assets/cv.pdf'
           commit-message: 'ci: update CV.pdf'

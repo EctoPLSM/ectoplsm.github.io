@@ -31,4 +31,4 @@ I also like puzzles; Sudokus, crosswords, you get the idea. I even [obtained the
 
 {{ site.author.location }}
 
-<iframe width="600" height="450" src="http://maps.google.co.jp/maps?&amp;q=35.675011, 139.537422&amp;output=embed&amp;t=h&amp;z=18" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe width="600" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCorXoLE4hnP88kh_RBQQZAfZHSiDfzkL4&q=35.675032,139.537431&zoom=17&maptype=satellite" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
