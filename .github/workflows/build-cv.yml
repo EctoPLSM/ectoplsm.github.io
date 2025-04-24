@@ -1,0 +1,51 @@
+name: Build & Publish CV PDF
+
+# Trigger on changes to your data, script, or Quarto config
+on:
+  push:
+    paths:
+      - '_data/**'
+      - 'scripts/generate_cv_qmd.py'
+      - '_quarto.yml'
+  workflow_dispatch:
+
+# Grant the GITHUB_TOKEN permission to push commits
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Checkout with full history so that we can push back
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2) Set up Python & regenerate CV.qmd
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Generate CV.qmd
+        run: python scripts/generate_cv_qmd.py
+
+      # 3) Install Quarto & render PDF into assets/
+      - name: Install Quarto CLI
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render PDF
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          format: pdf
+
+      # 4) Commit and push the updated PDF back into assets/
+      - name: Commit updated CV.pdf
+        uses: ad-m/github-push-action@v0.6
+        with:
+          branch: ${{ github.ref_name }}
+          file-pattern: 'assets/cv.pdf'
+          commit-message: 'ci: update CV.pdf'
