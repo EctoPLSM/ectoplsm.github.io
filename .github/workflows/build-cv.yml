@@ -45,9 +45,17 @@ jobs:
           Rscript -e 'install.packages("rmarkdown")'
 
       # 4) Commit and push the updated PDF back into assets/
-      - name: Render and publish updated CV.pdf
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render CV.qmd
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          target: gh-pages
-        env:
+          commit_message: "Update CV.pdf"
+        
+      - name: GitHub push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
+          directory: assets
