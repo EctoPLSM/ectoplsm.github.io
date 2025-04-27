@@ -2,7 +2,7 @@
 author:
   firstname: Ryotaro
   lastname: Chiba
-  address: Room 104, Main Building West, National Astronomical Observatory of Japan,
+  address: Room 102, Main Building West, National Astronomical Observatory of Japan,
     2-21-1 Osawa, Mitaka, Tokyo, 181-8588
   position: PhD student at NAOJ / SOKENDAI
   contacts:
