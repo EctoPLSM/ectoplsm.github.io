@@ -30,6 +30,18 @@ education:
         url: "https://www.resceu.s.u-tokyo.ac.jp/getd/"
 
 grants_fellowships:
+  - start: "2025-07"
+    title:
+      text: "Astronomical Society of Japan, Hayakawa Satio Fund (travel grant)"
+      url: "https://www.asj.or.jp/jp/activities/expenses/hayakawa_fund/"
+    amount: "JPY 200,000"
+
+  - start: "2025-05"
+    title:
+      text: "SOKENDAI Astronomical Science Program, Overseas Travel Grant"
+      url: "https://guas-astronomy.jp/Intro/env.html"
+    amount: "JPY 300,000"
+
   - start: "2024-04"
     end: "2029-03"
     title:

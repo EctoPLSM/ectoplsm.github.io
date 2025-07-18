@@ -24,7 +24,7 @@ PDF built using [quarto-awesomecv-typst](https://github.com/kazuyanagimoto/quart
 ## Grants & Fellowships
 
 {% for gf in site.data.cv.grants_fellowships %}
-- **{{ gf.start }} – {{ gf.end }}**  <br>
+- {% if gf.end %}**{{ gf.start }} – {{ gf.end }}** {% else %}**{{ gf.start }}** {% endif %}  <br>
   {% if gf.title.url %}[**{{ gf.title.text }}**]({{ gf.title.url }}){% else %}{{ gf.title.text }}{% endif %} ({{ gf.amount }})
 
 {% endfor %}
