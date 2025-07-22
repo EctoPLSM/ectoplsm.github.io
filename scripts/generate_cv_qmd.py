@@ -113,7 +113,10 @@ write_section("education", edu_entries)
 # GRANTS & FELLOWSHIPS
 gf_entries = []
 for item in cv.get("grants_fellowships", []):
-    date = f"{item.get('start','')} – {item.get('end','')}"
+    if item.get('end','') != "":
+        date = f"{item.get('start','')} – {item.get('end','')}"
+    else:
+        date = item.get('start','')
     title = item.get("title",{}).get("text","")
     ent = {
         "title":       title,
