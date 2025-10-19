@@ -1,9 +1,4 @@
 upcoming:
-  - title: "Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
-    authors: "Ryotaro Chiba, Takashi J. Moriya"
-    journal: "Monthly Notices of the Royal Astronomical Society"
-    year: 2025
-    arxiv: "2504.06445"
   - title: "A Thermonuclear Supernova Interacting with Hydrogen- and Helium-deficient Circumstellar Material ― SN 2020aeuh as a SN Ia-CSM-C/O?"
     authors: "Konstantinos Tsalapatas, Jesper Sollerman, Ryotaro Chiba, et al."
     journal: "Astronomy & Astrophysics"
@@ -12,6 +7,14 @@ upcoming:
 
 published:
   lead_author:
+    - title: "Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
+      authors: "Ryotaro Chiba, Takashi J. Moriya"
+      journal: "Monthly Notices of the Royal Astronomical Society"
+      volume: 542
+      number: 2353
+      year: 2025
+      doi: "10.1093/mnras/staf1382"
+      arxiv: "2504.06445"
     - title: "Characterisation of Supernovae Interacting with Dense Circumstellar Matter with a Flat Density Profile"
       authors: "Ryotaro Chiba, Takashi J. Moriya"
       journal: "The Astrophysical Journal"
