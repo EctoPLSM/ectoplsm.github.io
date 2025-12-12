@@ -1,9 +1,9 @@
 upcoming:
-  - title: "A Thermonuclear Supernova Interacting with Hydrogen- and Helium-deficient Circumstellar Material ― SN 2020aeuh as a SN Ia-CSM-C/O?"
-    authors: "Konstantinos Tsalapatas, Jesper Sollerman, Ryotaro Chiba, et al."
-    journal: "Astronomy & Astrophysics"
+  - title: "Near-infrared Variability Detected in the Young Star-Forming Dwarf Galaxy SBS 0335-052E"
+    authors: "Shun Hatano, Mitsuru Kokubo, ..., Ryotaro Chiba, Takashi J. Moriya"
+    journal: "accepted for publication in The Astrophysical Journal"
     year: 2025
-    arxiv: "2507.08532"
+    arxiv: "2304.03726"
 
 published:
   lead_author:
@@ -24,4 +24,11 @@ published:
       doi: "10.3847/1538-4357/ad6c37"
       arxiv: "2407.07244"
   co_author:
-    # … any co‐author items here
+    - title: "A Thermonuclear Supernova Interacting with Hydrogen- and Helium-deficient Circumstellar Material ― SN 2020aeuh as a SN Ia-CSM-C/O?"
+      authors: "Konstantinos Tsalapatas, Jesper Sollerman, Ryotaro Chiba, et al."
+      journal: "Astronomy & Astrophysics"
+      volume: A135
+      number: 14
+      year: 2025
+      doi: "10.1051/0004-6361/202556369"
+      arxiv: "2507.08532"

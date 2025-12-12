@@ -34,9 +34,21 @@ international:
 
 domestic:
   talks:
-    - title: "(予定) Ibc 型超新星の星周物質と連星相互作用"
+    - title: "Circumbinary Discs as the Origin of Cirumstellar Material around Hydrogen-poor Supernovae"
+      authors: "Ryotaro Chiba"
+      event: "DoS + CfCA Workshop FY2025"
+      location: "レクトーレ葉山 湘南国際村"
+      link: "https://sites.google.com/view/dos-cfca-workshop-fy2025"
+      year: 2025
+    - title: "Circumbinary Discs as the Origin of Cirumstellar Material around Hydrogen-poor Supernovae"
       authors: "千葉遼太郎"
-      event: "日本天文学会 2024年秋季年会"
+      event: "Supernova/Transient Workshop 2024"
+      location: "熱海温泉ホテル・サンミ倶楽部"
+      link: "https://sites.google.com/view/snworkshop2025/"
+      year: 2025
+    - title: "Ibc 型超新星の星周物質と連星相互作用"
+      authors: "千葉遼太郎"
+      event: "日本天文学会 2025年秋季年会"
       location: "海峡メッセ下関"
       link: "https://sites.google.com/view/nenkai2025kg"
       year: 2025
@@ -89,6 +101,12 @@ domestic:
       link: "https://astro-wakate.sakura.ne.jp/ss2024/"
       year: 2024
   posters:
+    - title: "Circumbinary Discs as the Origin of Cirumstellar Material around Hydrogen-poor Supernovae"
+      authors: "Ryotaro Chiba"
+      event: "学術変革 (A) マルチメッセンジャー天文学: 第3回領域研究会"
+      location: "鳴子観光ホテル"
+      link: "https://indico-icehap.phys.s.chiba-u.ac.jp/event/7/"
+      year: 2025
     - title: "Ibc型超新星の副次的ピークを用いた星周物質の調査"
       authors: "千葉遼太郎、守屋尭"
       event: "第37回 理論懇シンポジウム"
