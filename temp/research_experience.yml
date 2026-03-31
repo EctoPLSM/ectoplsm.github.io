@@ -1,4 +1,19 @@
 - title: Research stay
+  location: New York, USA
+  date: 2026-01
+  description: Columbia University
+  details:
+  - Presented seminar talks in the Department of Astronomy at Columbia University
+    and visited Center for Computational Astrophysics, Flatiron Institute
+  - 'Host: Kishalay De'
+- title: Research stay
+  location: Heidelberg, Germany
+  date: 2025-12
+  description: Heidelberg Institute for Theoretical Studies
+  details:
+  - Discussed about my current research on binary evolution leading to CSM formation
+  - 'Host: Fabian Schneider'
+- title: Research stay
   location: Santiago, Chile
   date: 2025-01
   description: University of Chile

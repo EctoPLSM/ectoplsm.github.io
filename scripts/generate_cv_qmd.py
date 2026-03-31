@@ -197,21 +197,22 @@ for scope in ['international']:
 pub = yaml.safe_load(open(DATA_DIR / "publications.yml", encoding="utf-8"))
 # upcoming
 up_entries = []
-for item in pub.get('upcoming', []):
-    ent = {
-        'title':       item.get('title', ''),
-        'location':    "",
-        'date':        str(item.get('year', '')),
-        'description': item.get('authors', '')
-    }
-    details = []
-    details.append("Submitted to " + item.get('journal', ''))
-    if arxiv := item.get('arxiv'):
-        details.append(f"https://arxiv.org/abs/{arxiv}")
-    if details:
-        ent['details'] = details
-    up_entries.append(ent)
-write_section('publications_upcoming', up_entries)
+if pub.get('upcoming', []) is not None:
+    for item in pub.get('upcoming', []):
+        ent = {
+            'title':       item.get('title', ''),
+            'location':    "",
+            'date':        str(item.get('year', '')),
+            'description': item.get('authors', '')
+        }
+        details = []
+        details.append("Submitted to " + item.get('journal', ''))
+        if arxiv := item.get('arxiv'):
+            details.append(f"https://arxiv.org/abs/{arxiv}")
+        if details:
+            ent['details'] = details
+        up_entries.append(ent)
+    write_section('publications_upcoming', up_entries)
 
 # published.lead_author
 lead_author = []
