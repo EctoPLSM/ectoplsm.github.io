@@ -1,9 +1,4 @@
 upcoming:
-  - title: "Near-infrared Variability Detected in the Young Star-Forming Dwarf Galaxy SBS 0335-052E"
-    authors: "Shun Hatano, Mitsuru Kokubo, ..., Ryotaro Chiba, Takashi J. Moriya"
-    journal: "accepted for publication in The Astrophysical Journal"
-    year: 2025
-    arxiv: "2304.03726"
 
 published:
   lead_author:
@@ -24,6 +19,14 @@ published:
       doi: "10.3847/1538-4357/ad6c37"
       arxiv: "2407.07244"
   co_author:
+    - title: "Near-infrared Variability Detected in the Young Star-Forming Dwarf Galaxy SBS 0335-052E"
+      authors: "Shun Hatano, Mitsuru Kokubo, ..., Ryotaro Chiba, Takashi J. Moriya"
+      journal: "The Astrophysical Journal"
+      volume: 997
+      number: 241
+      year: 2026
+      doi: "10.3847/1538-4357/ae29aa"
+      arxiv: "2304.03726"
     - title: "A Thermonuclear Supernova Interacting with Hydrogen- and Helium-deficient Circumstellar Material ― SN 2020aeuh as a SN Ia-CSM-C/O?"
       authors: "Konstantinos Tsalapatas, Jesper Sollerman, Ryotaro Chiba, et al."
       journal: "Astronomy & Astrophysics"

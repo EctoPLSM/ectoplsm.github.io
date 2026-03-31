@@ -30,6 +30,18 @@ education:
         url: "https://www.resceu.s.u-tokyo.ac.jp/getd/"
 
 grants_fellowships:
+  - start: "2026-04"
+    title: 
+      text: "JSPS Research Fellowship for Young Scientists, DC1"
+      url: "https://www.jsps.go.jp/english/e-pd/"
+    amount: "JPY 8,208,000"
+
+  - start: "2026-01"
+    title:
+      text: "SOKENDAI Astronomical Science Program, Overseas Travel Grant"
+      url: "https://guas-astronomy.jp/Intro/env.html"
+    amount: "JPY 265,000"
+
   - start: "2025-07"
     title:
       text: "Astronomical Society of Japan, Hayakawa Satio Fund (travel grant)"
@@ -47,7 +59,7 @@ grants_fellowships:
     title:
       text: "NAOJ Junior Fellow"
       url: "https://guas-astronomy.jp/Intro/pdf/junior_fellow.pdf"
-    amount: "JPY 9,000,000"
+    amount: "JPY 9,000,000; declined after being employed as JSPS Fellow"
 
   - start: "2023-04"
     end: "2029-03"
@@ -81,6 +93,28 @@ honours_awards:
     note: "Awarded to top 8% students in the competition"
 
 research_experience:
+  - date: "2026-01"
+    title:
+      text: "Research stay"
+      institution: "Columbia University"
+      url: null
+    location: "New York, USA"
+    note: "Presented seminar talks in the Department of Astronomy at Columbia University and visited Center for Computational Astrophysics, Flatiron Institute"
+    host: 
+      name: "Kishalay De"
+      url: "https://dekishalay.github.io/"
+
+  - date: "2025-12"
+    title:
+      text: "Research stay"
+      institution: "Heidelberg Institute for Theoretical Studies"
+      url: null
+    location: "Heidelberg, Germany"
+    note: "Discussed about my current research on binary evolution leading to CSM formation"
+    host: 
+      name: "Fabian Schneider"
+      url: "https://www.fabian-schneider.com/"
+
   - date: "2025-01"
     title:
       text: "Research stay"

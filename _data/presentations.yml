@@ -25,6 +25,12 @@ international:
       link: "https://supernovae2024.casconf.cn/"
       year: 2024
   posters:
+    - title: "(Upcoming) Circumbinary Discs as the Origin of Circumstellar Material  around H-poor Supernovae"
+      authors: "Ryotaro Chiba"
+      event: "IAU Symposium 406 - Future landscape of astrophysical transients: novel approaches in theory and observations"
+      location: "Hotel Kakola, Turku, Finland"
+      link: "https://iaus2026-transients.utu.fi/"
+      year: 2026
     - title: "Hydrodynamic Modelling of Early Peaks in Type Ibc Supernovae with Shock Cooling Emission from Circumstellar Matter"
       authors: "Ryotaro Chiba, Takashi J. Moriya"
       event: "European Astronomical Society Annual Meeting 2025"
@@ -34,6 +40,12 @@ international:
 
 domestic:
   talks:
+    - title: "(Invited) Circumbinary Disks as the Origin of Circumstellar Material around H-poor Supernovae"
+      authors: "Ryotaro Chiba"
+      event: "第1回 CHIPS研究会"
+      location: "KKRホテルびわこ"
+      link: "https://sites.google.com/g.ecc.u-tokyo.ac.jp/chips"
+      year: 2026
     - title: "Circumbinary Discs as the Origin of Cirumstellar Material around Hydrogen-poor Supernovae"
       authors: "Ryotaro Chiba"
       event: "DoS + CfCA Workshop FY2025"
@@ -42,7 +54,7 @@ domestic:
       year: 2025
     - title: "Circumbinary Discs as the Origin of Cirumstellar Material around Hydrogen-poor Supernovae"
       authors: "千葉遼太郎"
-      event: "Supernova/Transient Workshop 2024"
+      event: "Supernova/Transient Workshop 2025"
       location: "熱海温泉ホテル・サンミ倶楽部"
       link: "https://sites.google.com/view/snworkshop2025/"
       year: 2025

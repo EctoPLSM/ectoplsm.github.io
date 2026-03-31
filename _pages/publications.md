@@ -34,3 +34,18 @@ An auto-update list of my publications can also be found at [Google Scholar](htt
   </li>
 {% endfor %}
 </ul>
+
+### Co-author publications
+
+<ul>
+{% for pub in site.data.publications.published.co_author %}
+  <li>
+  {{ pub.title }} <br>
+  {{ pub.authors }} <br>
+  {{ pub.year }}, {{ pub.journal }} {{ pub.volume }}, {{ pub.number }}, 
+    <a href="https://ui.adsabs.harvard.edu/abs/{{ pub.doi }}/abstract">ADS</a>, 
+    <a href="http://dx.doi.org/{{ pub.doi }}">doi: {{ pub.doi }}</a>, 
+    <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv: {{ pub.arxiv }}</a>.
+  </li>
+{% endfor %}
+</ul>
