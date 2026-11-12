@@ -1,5 +1,29 @@
 international:
   talks:
+    - title: "(Upcoming) How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "Supernovae Near and Far - Celebrating the achievements of Brian Schmidt and the 40th anniversary of SN 1987A"
+      location: "Shine Dome, Canberra, Australia"
+      link: "https://www.mso.anu.edu.au/supernovae-near-and-far/"
+      year: 2027
+    - title: "(Upcoming) How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "Next Decade of Supernova Science: Bridging Theory and Observation"
+      location: "Kyoto University, Kyoto, Japan"
+      link: "https://sites.google.com/view/nextdecadeofsnscience/home"
+      year: 2026
+    - title: "How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "Type II Supernovae: The Chaotic Deaths of Supergiants and their Cosmic Implications"
+      location: "Centro de Eventos Coyo Antai, San Pedro de Atacama, Chile"
+      link: "https://www.eso.org/sci/meetings/2026/SNII-RSG.html"
+      year: 2026
+    - title: "How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "ICESUN Workshop 2026: Type Ia Supernovae"
+      location: "Tiancheng Taihe Hotel, Qiubei, China"
+      link: "https://iasn2026.casconf.cn/"
+      year: 2026
     - title: "Early Peaks in Type Ibc Supernovae: Implications for Late-Stage Binary Mass Transfer"
       authors: "Ryotaro Chiba"
       event: "Binary Stars in a New Era"
@@ -25,7 +49,7 @@ international:
       link: "https://supernovae2024.casconf.cn/"
       year: 2024
   posters:
-    - title: "(Upcoming) Circumbinary Discs as the Origin of Circumstellar Material  around H-poor Supernovae"
+    - title: "Circumbinary Discs as the Origin of Circumstellar Material  around H-poor Supernovae"
       authors: "Ryotaro Chiba"
       event: "IAU Symposium 406 - Future landscape of astrophysical transients: novel approaches in theory and observations"
       location: "Hotel Kakola, Turku, Finland"
@@ -40,6 +64,41 @@ international:
 
 domestic:
   talks:
+    - title: "(Invited, upcoming) UV/optical observation of supernova shock breakout/cooling emission"
+      authors: "千葉遼太郎"
+      event: "NASA 熱海ニューフジヤホテル"
+      link: "http://cos.icrr.u-tokyo.ac.jp/conference/HWO/index.html"
+      year: 2026
+    - title: "(Upcoming) How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "DoS/CfCA/4D2U Workshop 2026"
+      location: "大衆旅館ふくぜん"
+      link: null
+      year: 2026
+    - title: "How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "Supernova studies in the era of the Roman Space Telescope and Rubin/LSST"
+      location: "大学共同利用機関法人 自然科学研究機構"
+      link: "https://sites.google.com/view/snstudiesintheromanera/home"
+      year: 2026
+    - title: "How much does asphericity affect inference of SN circumstellar environment from radio observation?"
+      authors: "Ryotaro Chiba"
+      event: "Supernova & Transient Mini WS in Kagoshima 2026"
+      location: "鹿児島大学 郡元キャンパス"
+      link: "https://sites.google.com/view/snws2026/home"
+      year: 2026
+    - title: "星周物質の空間形状を考慮した超新星電波放射からの星周環境の推定"
+      authors: "千葉遼太郎"
+      event: "第55回 天文・天体物理若手夏の学校"
+      location: "ホテル圓山荘"
+      link: "https://astro-wakate.sakura.ne.jp/ss2026/"
+      year: 2026
+    - title: "Circumbinary Disks as the Origin of Circumstellar Material around H-poor Supernovae"
+      authors: "Ryotaro Chiba"
+      event: "マルチメッセンジャー天文学冬の学校2026"
+      location: "菅平高原ホテル柄澤"
+      link: "https://multimessenger.jp/events/ws_2026/"
+      year: 2026
     - title: "(Invited) Circumbinary Disks as the Origin of Circumstellar Material around H-poor Supernovae"
       authors: "Ryotaro Chiba"
       event: "第1回 CHIPS研究会"

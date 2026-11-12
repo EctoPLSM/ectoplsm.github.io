@@ -1,4 +1,9 @@
 upcoming:
+  - title: "Circumbinary Discs as the Origin of Circumstellar Material around Interacting H-poor Supernovae and Fast Blue Optical Transients"
+    authors: "Ryotaro Chiba, Semih Tuna, Brian D. Metzger, Takashi J. Moriya"
+    journal: "Astronomy & Astrophysics"
+    year: 2026
+    arxiv: "2604.20035"
 
 published:
   lead_author:
@@ -19,6 +24,14 @@ published:
       doi: "10.3847/1538-4357/ad6c37"
       arxiv: "2407.07244"
   co_author:
+    - title: "The transitional Type Ibn/IIn SN 2022pda, with pre-explosion outbursts and a double-peaked light curve"
+      authors: "Yongzhi Cai, Andrea Pastorello, Ryotaro Chiba, et al."
+      journal: "The Astrophysical Journal Letters"
+      volume: 1004
+      number: L37
+      year: 2026
+      doi: "10.3847/2041-8213/ae734e"
+      arxiv: "2605.25823"
     - title: "Near-infrared Variability Detected in the Young Star-Forming Dwarf Galaxy SBS 0335-052E"
       authors: "Shun Hatano, Mitsuru Kokubo, ..., Ryotaro Chiba, Takashi J. Moriya"
       journal: "The Astrophysical Journal"
